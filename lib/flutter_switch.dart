@@ -379,7 +379,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                         child: Align(
                           alignment: _toggleAnimation.value,
                           child: Container(
-                            width: widget.toggleSize,
+                            width: widget.toggleSize - 9,
                             height: widget.toggleSize,
                             padding: EdgeInsets.all(4.0),
                             decoration: BoxDecoration(
